@@ -1,0 +1,8 @@
+---
+- name: Converge
+  hosts: all
+  roles:
+    - role: ansible-role-hosts
+      vars:
+        role_hosts:
+          destination: /tmp

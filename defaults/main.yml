@@ -1,0 +1,4 @@
+---
+# defaults file for ansible-role-hosts
+role_hosts:
+  destination: /etc

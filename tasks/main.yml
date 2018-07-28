@@ -1,0 +1,12 @@
+---
+- name: Ensure destination directory exists
+  file:
+    path: "{{ role_hosts.destination }}"
+    state: directory
+
+- name: Render /etc/hosts from template using hosts of all
+  template:
+    src: etc/hosts.j2
+    dest: "{{ role_hosts.destination }}/hosts"
+    owner: root
+    group: root

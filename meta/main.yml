@@ -1,0 +1,19 @@
+---
+galaxy_info:
+  name: ansible_role_hosts
+  author: François Michaud
+  description: Ansible role to manage /etc/hosts
+  company: SAS 9 Février
+  issue_tracker_url: https://github.com/9fv/ansible-role-hosts/issues
+  license: MIT
+  min_ansible_version: 2.6
+  # min_ansible_container_version:
+  # github_branch:
+  platforms:
+    - name: Debian
+      versions:
+        - stretch
+        - buster
+  galaxy_tags: ['host', 'hosts', 'etc']
+
+dependencies: []
