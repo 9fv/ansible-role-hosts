@@ -24,7 +24,7 @@ platforms:
     ansible_groups: [test_molecule]
 provisioner:
   name: ansible
-  log: true
+  # log: true
   lint:
     name: ansible-lint
 scenario:
@@ -34,9 +34,3 @@ verifier:
   lint:
     name: flake8
 ansible:
-  all:
-    hosts:
-      node1:
-        ansible_host: 10.0.0.2
-      node2:
-        ansible_host: 10.0.0.3

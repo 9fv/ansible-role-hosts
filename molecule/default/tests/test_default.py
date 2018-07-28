@@ -14,13 +14,11 @@ def test_hosts_file(host):
 
 
 def test_hosts_contains_node1_host(host):
-    print()
     f = host.file('/tmp/hosts')
-    assert f.contains("node1")
-    assert f.contains("10.0.0.18")
+    print(f.content)
+    assert 'node1' in f.content
 
 
 def test_hosts_contains_node2_host(host):
     f = host.file('/tmp/hosts')
-    assert f.contains("node2")
-    assert f.contains("10.0.0.3")
+    assert 'node2' in f.content
