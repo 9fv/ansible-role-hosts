@@ -1,7 +1,7 @@
 ---
 galaxy_info:
-  name: hosts
-  version: 0.1.1
+  role_name: hosts
+  version: 0.1.2
   author: 9fv-io
   description: Ansible role to manage /etc/hosts
   company: SAS 9 Février
