@@ -3,6 +3,10 @@ Changelog of ansible-role-hosts
 
 ## v0.1
 
+### v0.1.2 (2018-07-29)
+
+* [[6cb108e]](https://github.com/9fv/ansible-role-hosts/commit/6cb108ec8c17ba6e44dcf12c641dc51f43832d8f) Fix role name.
+
 ### v0.1.1 (2018-07-29)
 
 * [[00593fa]](https://github.com/9fv/ansible-role-hosts/commit/00593fa6e563ca97b85053bdab4e6a7aef799eb2) Add hosts from the Ansible group: `all`.
